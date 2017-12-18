@@ -1,0 +1,15 @@
+.nav li {
+	display: inline-block;
+	width: 300px;
+	font-size: 24px;
+	font-family: Arial;
+	text-align: right;
+}
+body {
+	background-color: gray;
+	margin: 0 auto;
+}
+
+.arial {
+	font-family: Arial;
+}
