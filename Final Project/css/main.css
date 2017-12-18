@@ -1,0 +1,35 @@
+.nav li {
+    font-size: 24px;
+    font-weight: 300;
+    display: inline-block;
+    width: 200px;
+	z-index: 10;
+}
+.nav ul {
+	margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+body {
+	background-color: #81E8D1;
+	margin: 0 auto;
+}
+
+.arial {
+	font-family: Arial;
+}
+.nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav a:visited {
+	color: white;
+}
+
+#navhome {
+	width: 20%;
+	height: 20%;
+	margin: 0px 0px;
+	z-index: 1;
+}
