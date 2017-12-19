@@ -9,9 +9,10 @@
 	margin: 30px auto;
     padding: 0 20px;
     text-align: center;
+	height: 50px;
 }
 body {
-	background-color: #81E8D1;
+	background-color: #81E897;
 	margin: 0 auto;
 }
 
@@ -28,8 +29,38 @@ body {
 }
 
 #navhome {
-	width: 20%;
-	height: 20%;
-	margin: 0px 0px;
-	z-index: 1;
+	width: 40%;
+	height: 40%;
+	vertical-align: middle;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#box {
+	display: box;
+	border: 2px black solid;
+	height: 900px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 10px;
+}
+#box1 {
+	grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#box2 {
+	grid-box: box2;
+}
+
+#box3 {
+	grid-box: box2;
+}
+
+#box4 {
+	grid-box: box4;
 }
