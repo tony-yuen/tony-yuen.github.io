@@ -4,12 +4,16 @@
     display: inline-block;
     width: 200px;
 	z-index: 10;
+	vertical-align: middle;
 }
 .nav ul {
 	margin: 30px auto;
     padding: 0 20px;
     text-align: center;
 	height: 50px;
+	margin-bottom: 30px;
+	position: relative;
+	top: 14px;
 }
 body {
 	background-color: #81E897;
@@ -38,29 +42,57 @@ body {
 	font-weight: bold;
 }
 
-#box {
-	display: box;
-	border: 2px black solid;
-	height: 900px;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	grid-gap: 10px;
+.box {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	position: relative;
 }
+
 #box1 {
-	grid-column-start: 1;
-    grid-column-end: span 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
+	background-image: url("https://d3awvtnmmsvyot.cloudfront.net/api/file/Jqoi44f2S6aGO6RXDja1/convert?fit=max&w=1450&quality=60&cache=true&rotate=exif&compress=true");
+	height: 400px;
+	background-size:cover;
 }
 
 #box2 {
-	grid-box: box2;
+	background-image: url("https://www.errenskitchen.com/wp-content/uploads/2014/03/Victoria-Sponge-Cake-buttercream-6.jpg");
+	grid-column-start: 2;
+	grid-column-end: 3;
 }
 
 #box3 {
-	grid-box: box2;
+	background-image: url("https://d2gk7xgygi98cy.cloudfront.net/6609-3-large.jpg");
+	height: 400px;
 }
 
 #box4 {
-	grid-box: box4;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Baked_cheesecake_with_raspberries_and_blueberries.jpg/1200px-Baked_cheesecake_with_raspberries_and_blueberries.jpg");
+}
+
+.banner h1 {
+	background-image: url("http://images5.fanpop.com/image/photos/29400000/White-writing-29491444-516-350.jpg");
+	font-family: Verdana;
+	font-size: 30px;
+	color: gray;
+	opacity: 0.9;
+	border: 3px #97FF8D solid;
+	position: relative;
+	top: 460px;
+	width: 490px;
+	margin: 0 auto;
+	z-index: 5;
+}
+p {
+	font-size: 24px;
+	font-family: Arial;
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+	bottom: 50px;
+	color: white;
+}
+
+p a:visited {
+	color: #8DF8FF;
 }
