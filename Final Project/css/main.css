@@ -3,20 +3,22 @@
     font-weight: 300;
     display: inline-block;
     width: 200px;
-	z-index: 10;
-	vertical-align: middle;
 }
 .nav ul {
 	margin: 30px auto;
     padding: 0 20px;
     text-align: center;
-	height: 50px;
-	margin-bottom: 30px;
-	position: relative;
-	top: 14px;
+	width: 1400px;
+	border: 2px black solid;
 }
+
+.nav {
+	display: grid;
+	justify-items: start;
+}
+
 body {
-	background-color: #81E897;
+	background-color: #81E8D1;
 	margin: 0 auto;
 }
 
@@ -33,66 +35,19 @@ body {
 }
 
 #navhome {
-	width: 40%;
-	height: 40%;
-	vertical-align: middle;
+	display: grid;
+	width: 8%;
+	height: 8%;
+	border: 2px black solid;
 }
 
 .bold {
 	font-weight: bold;
+	color: #9AFFCC;
 }
 
-.box {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	position: relative;
-}
-
-#box1 {
-	background-image: url("https://d3awvtnmmsvyot.cloudfront.net/api/file/Jqoi44f2S6aGO6RXDja1/convert?fit=max&w=1450&quality=60&cache=true&rotate=exif&compress=true");
-	height: 400px;
-	background-size:cover;
-}
-
-#box2 {
-	background-image: url("https://www.errenskitchen.com/wp-content/uploads/2014/03/Victoria-Sponge-Cake-buttercream-6.jpg");
-	grid-column-start: 2;
-	grid-column-end: 3;
-}
-
-#box3 {
-	background-image: url("https://d2gk7xgygi98cy.cloudfront.net/6609-3-large.jpg");
-	height: 400px;
-}
-
-#box4 {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Baked_cheesecake_with_raspberries_and_blueberries.jpg/1200px-Baked_cheesecake_with_raspberries_and_blueberries.jpg");
-}
-
-.banner h1 {
-	background-image: url("http://images5.fanpop.com/image/photos/29400000/White-writing-29491444-516-350.jpg");
-	font-family: Verdana;
-	font-size: 30px;
-	color: gray;
-	opacity: 0.9;
-	border: 3px #97FF8D solid;
-	position: relative;
-	top: 460px;
-	width: 490px;
-	margin: 0 auto;
-	z-index: 5;
-}
-p {
-	font-size: 24px;
-	font-family: Arial;
-	width: 50%;
-	margin: 0 auto;
-	position: relative;
-	top: 50px;
-	bottom: 50px;
-	color: white;
-}
-
-p a:visited {
-	color: #8DF8FF;
+#box {
+	border: 2px black solid;
+	grid-template-rows: 200px;
+	grid-template-columns: 100px 1400px;
 }
