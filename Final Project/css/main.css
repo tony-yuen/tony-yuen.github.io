@@ -90,6 +90,30 @@ body {
 	background-image: url("http://img.taste.com.au/mJA3kK78/w1200-h630-cfill/taste/2016/11/gluten-free-sponge-77019-1.jpeg");
 }
 
+#box1A {
+	background-image: url("https://images-gmi-pmc.edge-generalmills.com/4eab0a60-730f-4b87-b126-47b1feb30903.jpg");
+	height: 400px;
+	background-size:cover;
+}
+
+#box2A {
+	background-image: url("http://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/app/angel-food-cake-ck-1941050-xl.jpg?itok=NrY6NEuo");
+	grid-column-start: 2;
+	grid-column-end: 3;
+	background-size:cover;
+}
+
+#box3A {
+	background-image: url("http://www.joyofbaking.com/images/facebook/angelfoodcake.jpg");
+	height: 400px;
+	background-size:cover;
+}
+
+#box4A {
+	background-image: url("http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18172219/051105w-Angel-Food-Cake-main.jpg");
+	background-size:cover;
+}
+
 .banner h1 {
 	background-image: url("http://images5.fanpop.com/image/photos/29400000/White-writing-29491444-516-350.jpg");
 	font-family: Verdana;
