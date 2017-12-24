@@ -114,6 +114,29 @@ body {
 	background-size:cover;
 }
 
+#box1C {
+	background-image: url("https://du7ybees82p4m.cloudfront.net/56476cc2b7f254.58157922.jpg?width=910&height=512");
+	height: 400px;
+	background-size:cover;
+}
+
+#box2C {
+	background-image: url("https://assets.marthastewart.com/styles/wmax-1500/d31/one-bowl-chocolate-cake-D105483/one-bowl-chocolate-cake-D105483_horiz.jpg?itok=SUxCWQpN");
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+#box3C {
+	background-image: url("https://indianhealthyrecipes.com/wp-content/uploads/2012/05/Eggless-chocolate-cake.jpg");
+	height: 400px;
+	background-size:cover;
+}
+
+#box4C {
+	background-image: url("https://throughherlookingglass.com/wp-content/uploads/2015/11/Brick-Street-Chocolate-Cake5.jpg");
+	background-size:cover;
+}
+
 .banner h1 {
 	background-image: url("http://images5.fanpop.com/image/photos/29400000/White-writing-29491444-516-350.jpg");
 	font-family: Verdana;
