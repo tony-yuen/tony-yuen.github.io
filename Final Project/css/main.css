@@ -98,7 +98,7 @@ body {
 	opacity: 0.9;
 	border: 3px #97FF8D solid;
 	position: relative;
-	top: 460px;
+	top: 440px;
 	width: 490px;
 	margin: 0 auto;
 	z-index: 5;
@@ -109,8 +109,8 @@ body {
 	width: 50%;
 	margin: 0 auto;
 	position: relative;
-	top: 50px;
-	bottom: 50px;
+	top: 20px;
+	bottom: 30px;
 	color: white;
 }
 
@@ -125,4 +125,19 @@ p a:visited {
 	margin: 0 auto;
 	position: relative;
 	top: 50px;
+}
+h1 {
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+.recipe {
+	text-align: center;
+	font-family: monospace;
+}
+.ingredients {
+	width: 400px;
+	margin: 0 auto;
+	font-family: monospace;
 }
